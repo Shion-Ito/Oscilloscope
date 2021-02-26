@@ -77,7 +77,7 @@ def findPeaks(array):
             i += 1
         return timeRange
 
-def form(array, time):
+def forms(array, time):
     i = 0
     cnt = 0
     while i < len(array)-1 and cnt < 10:
@@ -118,7 +118,7 @@ def form(array, time):
             return "Sine"
 
 
-form = form(voltage, currentTime)
+form = forms(voltage, currentTime)
 
 print("Waveform Shape:", form)
 findPeaks(voltage)
