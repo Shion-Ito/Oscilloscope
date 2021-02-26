@@ -1,7 +1,5 @@
-# Simple example of reading the MCP3008 analog input channels and printing
-# them all out.
-# Author: Tony DiCola
-# License: Public Domain
+# Shion Ito and Aarish Brohi
+
 import time
 
 # Import SPI library (for hardware SPI) and MCP3008 library.
